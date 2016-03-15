@@ -1,0 +1,9 @@
+{
+  "name": "mysql_camelcase_renamer",
+  "version": "1.0.0",
+  "description": "Rename mysql columns to underscore",
+  "author": "Pavel Chernyak fjfalcon@fjfalcon.ru",
+  "dependencies": {
+    "mysql": "*"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parameters_description" : [
+    "Connection parameters to your MySQL database",
+    "Please ensure, that you have defined all parameters properly."
+  ],
+  "parameters" : {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "password",
+    "database": "db"
+  },
+
+  "dry_run_description": [
+    "If you want only to print queries,",
+    "but not to execute it to your database this option for you"
+  ],
+  "dry_run" : true,
+
+  "exclude_tables_description": [
+    "List (Array) of tables, that will not be converted."
+  ],
+
+  "exclude_tables": []
+}
