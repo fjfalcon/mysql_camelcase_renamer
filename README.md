@@ -26,7 +26,8 @@ http://www.gnu.org/licenses/gpl.txt.
 
 
   &nbsp;&nbsp;
-   <b>Remark</b>:
+  
+<h3>Remarks</h3>:
 This is my first application on node.js.
 
-I created it because i need to convert my mysql database to convert it to postgresql with [NMIG](https://github.com/AnatolyUss/nmig) tool.
+I created it to convert my mysql database to camelcase so postgresql can normaly work with hibernate. To convert database to postgresql i used [NMIG](https://github.com/AnatolyUss/nmig) tool.
