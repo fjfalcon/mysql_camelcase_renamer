@@ -76,6 +76,11 @@ Renamer.prototype.connect = function (self) {
 Renamer.prototype.run = function (self) {
     self.connection.query('SHOW TABLES', parseTables);
 
+    /**
+     * Callback to parse tables. Errors passed silently
+     * @param err
+     * @param result
+     */
     function parseTables(err, result) {
         if (err)
             throw err;
