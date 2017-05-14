@@ -21,7 +21,7 @@ config.json contains brief description of each configuration parameter
 
 <h3>LICENSE</h3>
 
-NMIG is available under "GNU GENERAL PUBLIC LICENSE" (v. 3)
+Mysql CamelCase renamer is available under "GNU GENERAL PUBLIC LICENSE" (v. 3)
 http://www.gnu.org/licenses/gpl.txt.
 
 
